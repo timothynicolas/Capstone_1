@@ -33,7 +33,7 @@ function S_Login(){
     return(
         <div>
             <form>
-                <h1>LOGIN</h1>
+                <h1>Login Form</h1>
                 <label>First Name:</label><br/>
                 <input type="text" id="fname" autoComplete="off" value={fname} onChange={(e) => {setFname(e.target.value)}}/><br/>
                 <label>Last Name:</label><br/>
